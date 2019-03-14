@@ -5,6 +5,9 @@ import Action from '../components/Action';
 import Options from '../components/Options';
 import OptionModal from '../components/OptionModal';
 
+import 'normalize.css';
+import '../styles/styles.scss';
+
 export default class IndecisionApp extends React.Component {
   state = {
     options: [],
